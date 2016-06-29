@@ -1,0 +1,4 @@
+idDataMajorId,idDataMinorId,beaconPeriod,outputPowerLevel,beaconMode
+90,12877,1250,2,0x13
+90,12878,1250,4,0x22
+90,12879,1250,6,0x31

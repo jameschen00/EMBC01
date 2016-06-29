@@ -1,0 +1,110 @@
+
+<ApplicationBuild Header="EMBC01" Extern=".\EMBC01.rapp" Path=".\EMBC01.rapp" OutputFile=".\build\EMBC01.elf" sate="98" Config="CoinCell" >
+	<NodeH Path="..\..\src\altbeacon.h" Header="altbeacon.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\altbeacon.c" Header="altbeacon.c" Marker="-1" OutputFile=".\build\altbeacon.o" sate="0" />
+	<NodeH Path="..\..\src\beacon.h" Header="beacon.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeH Path="..\..\src\config.h" Header="config.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeH Path="..\..\src\config-coincell.h" Header="config-coincell.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeH Path="..\..\src\hci.h" Header="hci.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\hci.c" Header="hci.c" Marker="-1" OutputFile=".\build\hci.o" sate="0" />
+	<NodeH Path="..\..\src\hci_9301.h" Header="hci_9301.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\hci_9301.c" Header="hci_9301.c" Marker="-1" OutputFile=".\build\hci_9301.o" sate="0" />
+	<NodeH Path="..\..\src\iddata.h" Header="iddata.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeH Path="..\..\src\lfsr.h" Header="lfsr.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\lfsr.c" Header="lfsr.c" Marker="-1" OutputFile=".\build\lfsr.o" sate="0" />
+	<NodeC Path="..\..\src\main.c" Header="main.c" Marker="-1" OutputFile=".\build\main.o" sate="0" />
+	<NodeH Path="..\..\src\params.h" Header="params.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\params.c" Header="params.c" Marker="-1" OutputFile=".\build\params.o" sate="0" />
+	<NodeH Path="..\..\src\spi_6819.h" Header="spi_6819.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\spi_6819.c" Header="spi_6819.c" Marker="-1" OutputFile=".\build\spi_6819.o" sate="0" />
+	<NodeH Path="..\..\src\temperature.h" Header="temperature.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\temperature.c" Header="temperature.c" Marker="-1" OutputFile=".\build\temperature.o" sate="0" />
+	<Group Header="lib" Marker="-1" OutputFile="" sate="96" >
+		<NodeLib Path="..\..\lib\nvm_apl.a" Header="nvm_apl.a" Marker="-1" OutputFile="..\..\lib\nvm_apl.a" sate="0" />
+		<NodeLib Path="..\..\lib\iddata.a" Header="iddata.a" Marker="-1" OutputFile="..\..\lib\iddata.a" sate="0" />
+	</Group>
+	<Configs>
+		<Config Header="CoinCell" />
+	</Configs>
+	<NodeC Path="..\..\src\eddystone.c" Header="eddystone.c" Marker="-1" OutputFile=".\build\eddystone.o" sate="0" />
+	<NodeH Path="..\..\src\eddystone.h" Header="eddystone.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\rssi.c" Header="rssi.c" Marker="-1" OutputFile=".\build\rssi.o" sate="0" />
+	<NodeH Path="..\..\src\rssi.h" Header="rssi.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeC Path="..\..\src\statemachine.c" Header="statemachine.c" Marker="-1" OutputFile=".\build\statemachine.o" sate="0" />
+	<NodeH Path="..\..\src\statemachine.h" Header="statemachine.h" Marker="-1" OutputFile="" sate="0" />
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="C816" />
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\build" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\build" Removable="1" />
+					<Property Header="LibDir" Value="..\..\lib;$(C816_ROOT)\C816\LIB;$(C816_ROOT)\LIB\GCC-LIB\C816\EGCS-2.91.02" Removable="1" />
+					<Property Header="IncDir" Value=".;..\..\$(C816_ROOT)\C816\INCLUDE;$(RKitInst)\Lib\C816\templates" Removable="1" />
+				</Section>
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorC816" >
+					<Property Header="Processor" Value="EM6819F6-B300" />
+				</Section>
+				<Section Header="ToolSetC816" >
+					<Property Header="BuildToolSetC816" Value="C816\\GNU.config" Removable="1" />
+				</Section>
+			</Set>
+			<Set Header="RUNCMD" >
+				<Section Header="Postlink" >
+					<Property Header="PostlinkAction" Value="Yes" Removable="1" />
+					<Property Header="Command" Value="cmd /C move /Y *.d .\build" Removable="1" />
+				</Section>
+			</Set>
+		</Config>
+		<Config Header="CoinCell" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value="..\..\src;..\..\include\EM6819FX-B300;$(RKitInst)\Lib\C816\templates\EM6819F6-B300;$(C816_ROOT)\C816\INCLUDE" Removable="1" />
+					<Property Header="LinkerOutputDir" Value="Output Directory" Removable="1" />
+				</Section>
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="EM_PRODUCT_COINCELL" Removable="1" />
+				</Section>
+				<Section Header="More" >
+					<Property Header="More" Value="-v" />
+				</Section>
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-O1" Removable="1" />
+				</Section>
+				<Section Header="DEBUG" >
+					<Property Header="TEMP" Value="" Removable="1" />
+				</Section>
+			</Set>
+			<Set Header="LD" >
+				<Section Header="More" >
+					<Property Header="More" Value="-v" />
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="SCRIPTFILES" Value="No" Removable="1" />
+					<Property Header="File" Value="../../src/crt0.ld" Removable="1" />
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="Yes" Removable="1" />
+					<Property Header="File" Value="crt0.o" Removable="1" />
+				</Section>
+			</Set>
+			<Set Header="Target" >
+				<Section Header="DebugC816" >
+					<Property Header="Startup" Value="1" Removable="1" />
+					<Property Header="Explore" Value="Yes" Removable="1" />
+				</Section>
+			</Set>
+			<Set Header="RUNCMD" >
+				<Section Header="Postlink" >
+					<Property Header="Command" Value="cmd /C move /Y *.d .\build" Removable="1" />
+				</Section>
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>

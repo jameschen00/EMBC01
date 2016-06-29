@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="306" height="252" viewBox="0, 0, 306, 252">
+  <g id="Layer_1">
+    <g>
+      <path d="M115.927,47.014 C117.885,39.58 124.641,34.099 132.676,34.099" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M115.927,47.014 L113.887,45.239 L115.352,51.477 L118.35,45.814 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M243.582,226.289 C241.623,218.856 234.867,213.375 226.833,213.375" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M243.582,226.289 L241.158,225.089 L244.157,230.753 L245.621,224.514 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M104.389,173.346 C106.347,165.912 113.103,160.431 121.137,160.431" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M104.389,173.346 L102.349,171.571 L103.814,177.809 L106.812,172.146 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M87.823,173.311 C89.986,158.687 102.587,147.466 117.807,147.466" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M87.823,173.311 L85.689,171.651 L87.494,177.799 L90.177,171.98 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M130.558,226.128 C128.306,216.33 118.775,208.973 107.359,208.973" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M130.558,226.128 L128.154,224.89 L131.064,230.599 L132.625,224.384 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M88.946,46.962 C91.15,29.952 105.69,16.812 123.3,16.812" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M88.946,46.962 L86.797,45.321 L88.658,51.453 L91.288,45.609 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M84.978,120.923 C85.214,101.166 98.486,84.673 116.215,83.125" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M84.978,120.923 L82.672,119.51 L85.148,125.42 L87.169,119.339 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <path d="M330.154,74.073 L330.154,74.073" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    <text transform="matrix(1, 0, 0, 1, 163.45, 17.755)">
+      <tspan x="-37.257" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">Firmware Revision</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 164.43, 33.601)">
+      <tspan x="-29.516" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">deviceAddress</tspan>
+    </text>
+    <g>
+      <path d="M195.032,69.821 C192.579,77.2 184.138,82.639 174.101,82.639" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M195.032,69.821 L197.012,71.662 L195.755,65.379 L192.571,70.94 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M130.442,193.858 C127.985,202.519 118.506,208.973 107.187,208.973" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M130.442,193.858 L132.464,195.655 L131.064,189.402 L128.007,195.034 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <text transform="matrix(1, 0, 0, 1, 136.984, 82.861)">
+        <tspan x="-17.286" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">IdData UUID</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 136.984, 95.827)">
+        <tspan x="-26.791" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">IdData MinorID</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 136.984, 108.838)">
+        <tspan x="-26.791" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">IdData MajorID</tspan>
+      </text>
+    </g>
+    <g>
+      <path d="M186.657,121.389 C185.182,113.969 180.119,108.501 174.101,108.501" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M186.657,121.389 L184.273,120.114 L187.093,125.868 L188.751,119.679 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M204.081,121.367 C201.908,106.788 189.313,95.604 174.101,95.604" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M204.081,121.367 L201.727,120.037 L204.413,125.855 L206.215,119.706 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 250.582, 79.26)">
+      <tspan x="-36.024" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">outputPowerLevel</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 234.107, 96.547)">
+      <tspan x="-29.52" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">beaconInterval</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 148.312, 146.968)">
+      <tspan x="-26.02" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">beaconMode</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 149.805, 159.933)">
+      <tspan x="-24.269" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">openSensor</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 76.73, 208.476)">
+      <tspan x="-26.043" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">(28 byte filler)</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 186.33, 213.118)">
+      <tspan x="-36.187" y="3.235" font-family="Helvetica" font-size="9" fill="#000000">temperatureOffset</tspan>
+    </text>
+    <g>
+      <path d="M275.379,122.512 C283.807,111.52 282.803,96.028 272.367,86.108" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M275.379,122.512 L274.71,119.892 L272.367,125.856 L278.054,122.903 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M236.662,122.221 C239.632,116.445 238.763,109.114 234.055,104.248" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+      <path d="M236.662,122.221 L235.707,119.69 L234.04,125.878 L239.364,122.312 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0.75" stroke-opacity="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 159.215, 59.433)">
+      <tspan x="-147.218" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000">: 10 6F60 00 </tspan>
+      <tspan x="-77.006" y="1.596" font-family="CourierNewPS-BoldMT" font-size="9" fill="#000000">0253 030201EEF30E 699EBC80E1F311E3</tspan>
+      <tspan x="106.624" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000">   CC</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 159.215, 132.932)">
+      <tspan x="-147.218" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000">: 10 6F70 00 </tspan>
+      <tspan x="-77.006" y="1.596" font-family="CourierNewPS-BoldMT" font-size="9" fill="#000000">9A0F0CF3EE3BC012 005A 324D 0003E8 05</tspan>
+      <tspan x="117.426" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000"> A5</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 159.215, 184.343)">
+      <tspan x="-147.218" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000">: 10 6F80 00</tspan>
+      <tspan x="-82.407" y="1.596" font-family="CourierNewPS-BoldMT" font-size="9" fill="#000000"> 00 01</tspan>
+      <tspan x="-50.002" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000"> 0000000000000000000000000000   00</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 159.215, 237.896)">
+      <tspan x="-147.218" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000">: 10 6F90 00 0000000000000000000000000000 </tspan>
+      <tspan x="79.619" y="1.596" font-family="CourierNewPS-BoldMT" font-size="9" fill="#000000">0000</tspan>
+      <tspan x="101.223" y="1.596" font-family="CourierNewPSMT" font-size="9" fill="#000000">    F1</tspan>
+    </text>
+  </g>
+</svg>
