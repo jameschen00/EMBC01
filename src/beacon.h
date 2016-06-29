@@ -94,7 +94,7 @@
 #define BCNMODE_POWER_B         0x8000    // 2nd product-defined level
 #define BCNMODE_POWER_C         0xC000    // 3rd product-defined level
                                         //
-#define BCNMODE_INIT            0x0000    // Initial mode
+#define BCNMODE_INIT            0x0000     // Initial mode  -      /**TOHLE musí být ono!**/ 
 #define BCNMODE_EOL             0xFFFF    // End-of-list marker
 
 
